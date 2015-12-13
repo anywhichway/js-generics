@@ -1,0 +1,24 @@
+{
+  "name": "js-generics",
+  "version": "0.0.3",
+  "description": "A generic function definition and dispatch library for Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anywhichway/js-generics.git"
+  },
+  "keywords": [
+    "generic",
+    "overload",
+    "dispatch"
+  ],
+  "author": "Simon Y. Blackwell <syblackwell@anywhichway.com> (http://www.github.com/anywhichway)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anywhichway/js-generics/issues"
+  },
+  "homepage": "https://github.com/anywhichway/js-generics#readme"
+}
