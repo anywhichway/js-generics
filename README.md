@@ -9,6 +9,8 @@ npm install js-generics
 
 # Release History (reverse chronological order)
 
+v0.0.4 2015-12-13 Codacy improvements
+
 v0.0.3 2015-12-13 Initial public commit.
 
 # License

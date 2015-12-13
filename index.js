@@ -50,7 +50,8 @@
 					if(args.every(function(arg,j) {
 						return handler[j]===arg;
 					})) {
-						return handlers[i] = arguments;
+						handlers[i] = arguments;
+						return handlers[i];
 					}
 				}
 			})) {
@@ -72,7 +73,7 @@
 	generic.VARGS = Infinity;
 	generic.VTYPE = undefined;
 	
-	if (typeof(module) != 'undefined' && module.exports) {
+	if (typeof(module) !== 'undefined' && module.exports) {
 		module.exports  = generic;
 	} else if (typeof define === 'function' && define.amd) {
 		// Publish as AMD module
