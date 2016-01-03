@@ -1,3 +1,7 @@
+//     js-generics
+//
+//     Copyright (c) 2015 Simon Y. Blackwell, AnyWhichWay
+//     MIT License - http://opensource.org/licenses/mit-license.php
 (function() {
 	"use strict";
 	var _global = this;
