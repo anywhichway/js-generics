@@ -1,6 +1,7 @@
 var expect;
 if(typeof(window)==="undefined") {
 	expect = require("chai").expect;
+	generic = require('../index.js');
 }
 
 describe('generic', function() {
