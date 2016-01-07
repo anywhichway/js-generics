@@ -11,7 +11,7 @@ The index.js and package.json files are compatible with [node-require](http://ww
 
 # Usage
 
-Multi-dispatch generic function support the selection and execution of a function based on the types and number of arguments. A common use is supporting mathematical operations on different types of objects. For example:
+Multi-dispatch generic functions support the selection and execution of a function based on the types and number of arguments. A common use is supporting mathematical operations on different types of objects. For example:
 
 ```
 var sum = generic(function() { throw new Error("can't sum " + JSON.stringify(arguments)); } )
@@ -29,11 +29,11 @@ The general form of usage is:
 generic(<default function>).method(<type matcher>[,<type matcher>...],<function to call>)[.method(<type matcher>[,<type matcher>...],<function to call>),...]
 ```
 
-*<default function>* - This function is called if no matching dispatches are found. It can take any form and is called as *<default function>.apply(this,arguments)*. As a result generic functions can be included as methods on objects.
+*\<default function\>* - This function is called if no matching dispatches are found. It can take any form and is called as *<default function>.apply(this,arguments)*. As a result generic functions can be included as methods on objects.
 
-*<type matcher>* - These should be primitive type names or functions. If a function, it's sole responsibility is to return *true* or *false* if the argument type is correct. The number of <type matcher> must match the number of arguments to <function to call>, or the last <type matcher> be the special value *generic.VARGS*.
+*\<type matcher\>* - These should be primitive type names or functions. If a function, it's sole responsibility is to return *true* or *false* if the argument type is correct. The number of \<type matcher\> must match the number of arguments to \<function to call\>, or the last \<type matcher\> be the special value *generic.VARGS*.
 
-*<function to call>* - This function does the desired work. It is called as *<type matcher>.apply(this,arguments)*.
+*\<function to call\>* - This function does the desired work. It is called as *\<type matcher\>.apply(this,arguments)*.
 
 .*method* calls can be chained and the last matching method is the one invoked by the dispatcher.
 
