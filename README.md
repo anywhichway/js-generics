@@ -31,7 +31,7 @@ generic(<default function>).method(<type matcher>[,<type matcher>...],<function 
 
 *\<default function\>* - This function is called if no matching dispatches are found. It can take any form and is called as *<default function>.apply(this,arguments)*. As a result generic functions can be included as methods on objects.
 
-*\<type matcher\>* - These should be primitive type names or functions. If a function, it's sole responsibility is to return *true* or *false* if the argument type is correct. The number of \<type matcher\> must match the number of arguments to \<function to call\>, or the last \<type matcher\> be the special value *generic.VARGS*.
+*\<type matcher\>* - These should be primitive type names or functions. If a function, it's sole responsibility is to return *true* or *false* if the argument type is correct. The number of \<type matcher\> must match the number of arguments to \<function to call\>, or the last \<type matcher\> must be the special value *generic.VARGS*.
 
 *\<function to call\>* - This function does the desired work. It is called as *\<type matcher\>.apply(this,arguments)*.
 
