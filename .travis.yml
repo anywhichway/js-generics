@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+  - "stable"
+addons:
+    code_climate:
+        repo_token:  1b8aefe9688c1340d276d8f30f96ceec7bc4e3e7e56a82b01d1971dbfbc1bab2
+after_script:
+  - codeclimate-test-reporter < ./coverage/lcov.info

@@ -23,6 +23,7 @@
   "homepage": "https://github.com/anywhichway/js-generics#readme",
   "devDependencies": {
     "chai": "^3.4.1",
+    "codeclimate-test-reporter": "^0.3.0",
     "istanbul": "^0.4.1",
     "mocha": "^2.3.4"
   }

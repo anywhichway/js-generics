@@ -39,6 +39,8 @@ generic(<default function>).method(<type matcher>[,<type matcher>...],<function 
 
 # Release History (reverse chronological order)
 
+v0.0.6 2016-01-03 Corrected markdown issues is README.
+
 v0.0.5 2016-01-03 Added unit tests and documentation.
 
 v0.0.4 2015-12-13 Codacy improvements
