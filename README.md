@@ -1,5 +1,5 @@
 # js-generics
-A generic function definition and multi-dispatch library for Javascript.
+A generic function definition and multi-dispatch library for JavaScript.
 
 Multi-dispatch generic functions support the selection and execution of a function based on the types and number of arguments.
 
@@ -10,7 +10,7 @@ Multi-dispatch generic functions support the selection and execution of a functi
 [![Test Coverage](https://codeclimate.com/github/anywhichway/js-generics/badges/coverage.svg)](https://codeclimate.com/github/anywhichway/js-generics/coverage)
 [![Issue Count](https://codeclimate.com/github/anywhichway/js-generics/badges/issue_count.svg)](https://codeclimate.com/github/anywhichway/js-generics)
 
-[![NPM](https://nodei.co/npm/jovial.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/<js-generics>/)
+[![NPM](https://nodei.co/npm/js-generics.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/<js-generics>/)
 
 
 # Installation
